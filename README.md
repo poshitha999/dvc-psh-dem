@@ -34,4 +34,11 @@ git add . && git commit -m "first commit"
 Pushing to the tremote
 '''bash
 git remote add origin https://github.com/poshitha999/dvc-psh-dem.git
+
+To change the branch name to main
+'''bash
 git branch -M main
+
+Push to the remote
+'''bash
+git push origin main

@@ -1,44 +1,49 @@
 create env
 
-'''bash
+```bash
 conda create -n wineq python=3.11 -y
-
+```
 activate env
-'''bash
+```bash
 conda activate wineq
-'''
+```
 
 create a req fil
-'''bash
-pip install -r tequirements.txt
-
+```bash
+pip install -r requirements.txt
+```
 
 download the data
 
+then follow below process
+```bash
 git init
 
 dvc init
 
 dvc add data_given/winequality.csv
+```
 
 Add everything in the directory to the staging area
-'''bash
+```bash
 git add . 
 
 git commit -m "first commit"
+```
 
 one liner updates
-
+```bash
 git add . && git commit -m "first commit"
-
+```
 Pushing to the tremote
-'''bash
+```bash
 git remote add origin https://github.com/poshitha999/dvc-psh-dem.git
-
+```
 To change the branch name to main
-'''bash
+```bash
 git branch -M main
-
+```
 Push to the remote
-'''bash
+```bash
 git push origin main
+```

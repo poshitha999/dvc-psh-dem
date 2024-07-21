@@ -20,3 +20,8 @@ git init
 dvc init
 
 dvc add data_given/winequality.csv
+
+Add everything in the directory to the staging area
+'''bash
+git add . 
+git commit -m "first commit"

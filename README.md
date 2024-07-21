@@ -47,3 +47,6 @@ Push to the remote
 ```bash
 git push origin main
 ```
+
+## params.yaml
+from [data_source][s3_source] we read the data, the we load it to [load_data][raw_dataset_csv]
